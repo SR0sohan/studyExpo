@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+header{
+    padding-top: 30px;
+}
 .slider-bg{
     background-color: black;
 }
