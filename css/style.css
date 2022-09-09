@@ -2,36 +2,21 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.slider-image{
-    background-image: url(../images/cover/cover-1.png);
-    background-repeat: no-repeat;
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    position: relative;
-    background-color: rgba(0,0,0,0.6);
-    background-blend-mode: overlay;
+.slider-bg{
+    background-color: black;
 }
-.slider-image2{
-    background-image: url(../images/cover/cover---2.jpg);
-    background-repeat: no-repeat;
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    position: relative;
-    background-color: rgba(0,0,0,0.6);
-    background-blend-mode: overlay;
+.slider-bg img{
+    opacity: 0.6;
 }
-.slider-image3{
-    background-image: url(../images/cover/cover-3.jpg);
-    background-repeat: no-repeat;
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    position: relative;
-    background-color: rgba(0,0,0,0.6);
-    background-blend-mode: overlay;
-}
+
 .carousel-caption {
     bottom: 35% !important;
 }
+.working{
+    background-color: #f4fafd;
+}
+footer a {
+    background-color: #3d3d3d98;
+    height: 35px;
+    width: 35px;
+  }
